@@ -1,0 +1,6 @@
+-aa	BEGIN ;com1
+	DB 15
+	RW
+	RB 1 ;com2
+-bb	DW 5 
+	END ;com3

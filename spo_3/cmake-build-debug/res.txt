@@ -1,0 +1,6 @@
+Marker:      aa Operator:   BEGIN Operand:         Comment:    com1
+Marker:         Operator:      DB Operand:      15 Comment:        
+Marker:         Operator:      RW Operand:         Comment:        
+Marker:         Operator:      RB Operand:       1 Comment:    com2
+Marker:      bb Operator:      DW Operand:       5 Comment:        
+Marker:         Operator:         Operand:         Comment:    com3

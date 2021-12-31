@@ -1,0 +1,3 @@
+C:/Users/mrlux/Desktop/macro/cmake-build-debug/CMakeFiles/macro.dir
+C:/Users/mrlux/Desktop/macro/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/mrlux/Desktop/macro/cmake-build-debug/CMakeFiles/rebuild_cache.dir

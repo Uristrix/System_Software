@@ -1,0 +1,12 @@
+num    adr   code        str
+  1      0 000000 	BEGIN 1000h
+  2   1000 29100f   -start  LDX zero
+  3   1003 231015 	LDA lel
+  4   1006 be1012 	ADD wsz
+  5   1009 841018 	STA rez
+  6   100c e10000 	HLT
+  7   100f 000000   -zero	DW 0
+  8   1012 000000   -wsz	DW 3
+  9   1015 000000   -lel	DW 7
+ 10   1018 000000   -rez	RW 1
+ 11   101b 001000 	END start

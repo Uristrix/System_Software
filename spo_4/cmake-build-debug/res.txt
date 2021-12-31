@@ -1,0 +1,29 @@
+ 0:        SUB ->      STOSB ->        INC ->       NONE
+ 1:        OUT ->       NONE
+ 2:       NONE
+ 3:       NONE
+ 4:         IN ->       NONE
+ 5:       NONE
+ 6:        XOR ->       NONE
+ 7:        ROR ->        POP ->        END ->       NONE
+ 8:        MOV ->        MUL ->       NONE
+ 9:       LOOP ->       NONE
+10:        CMP ->        JNZ ->       NONE
+11:        ADD ->      STOSW ->       TEST ->       NONE
+12:        ADC ->       NONE
+13:       NONE
+14:       NONE
+15:         RW ->       NONE
+16:       NONE
+17:        DEC ->       NONE
+18:         JE ->       PUSH ->       NONE
+19:       NONE
+20:       NONE
+21:       NONE
+22:      BEGIN ->       NONE
+23:       NONE
+24:         DB ->       NONE
+25:         DW ->       NONE
+26:       NONE
+27:         JZ ->         RB ->       NONE
+28:       NONE

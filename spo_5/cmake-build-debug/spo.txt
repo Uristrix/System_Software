@@ -1,0 +1,11 @@
+	BEGIN 1000h
+-start  LDX zero
+	LDA lel
+	ADD wsz
+	STA rez
+	HLT
+-zero	DW 0
+-wsz	DW 3
+-lel	DW 7
+-rez	RW 1
+	END start

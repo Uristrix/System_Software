@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/spo_5/hash.h
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+math.h
+-
+
+C:/spo_5/main.c
+parsing_str.h
+C:/spo_5/parsing_str.h
+marker.h
+C:/spo_5/marker.h
+hash.h
+C:/spo_5/hash.h
+
+C:/spo_5/marker.h
+hash.h
+C:/spo_5/hash.h
+
+C:/spo_5/parsing_str.h
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+ctype.h
+-
+

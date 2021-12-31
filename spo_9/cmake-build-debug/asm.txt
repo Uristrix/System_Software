@@ -1,0 +1,24 @@
+MODEL SMALL
+STACK 256
+CODESEG
+
+get_char	macro
+	mov	ah,1h
+	int	21h
+endm
+
+operations	macro num1, num2
+	add	ax, num1
+	sub	ax, num2
+endm
+
+Start:
+	
+	mov ax,@data 		; установка в ds адpеса
+	mov ds,ax 		; сегмента данных
+	get_char
+	operations 5,2
+Exit:
+	CALL ExitProgramm 
+
+End Start

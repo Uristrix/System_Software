@@ -1,0 +1,3 @@
+C:/spo_4/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/spo_4/cmake-build-debug/CMakeFiles/spo_4.dir
+C:/spo_4/cmake-build-debug/CMakeFiles/rebuild_cache.dir
